@@ -1,16 +1,42 @@
 /* Beaches website stylesheet */
 
-html {
+html body {
 	padding: 0;
 	margin: 0px;
-	font-family: 'Open Sans';
+	font-family: 'Raleway';
 }
 
+.header .container {
+	background-image: url(https://static.pexels.com/photos/111085/pexels-photo-111085.jpeg);
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+	height: 350px;
+	border-bottom: 5px solid grey;
+
+
+
+}
 
 h1 {
-	font-weight: 600;
+	font-weight: 100;
 	padding-top: 10px;
+	color: #1DB8DD;
+	font-size: 85px;
+	text-align: right;
+	padding-top: 210px;
+	margin-bottom:  -22px;
+}
 
+h2 {
+	text-align: right;
+	padding-right: 50px;
+
+	color: white;
+}
+
+.beaches {
+	text-align: center;
 }
 li {
 	display: inline;
@@ -20,6 +46,7 @@ li {
 a {
 	text-decoration: none;
 }
+
 
 
 
