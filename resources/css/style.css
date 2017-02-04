@@ -11,41 +11,46 @@ html body {
 	background-size: cover;
 	background-position: center;
 	padding: 50px;
-	height: 350px;
-	border-bottom: 5px solid grey;
-
-
-
+	height: 600px;
+	border-bottom: 5px solid #7D8383;
+	text-align: right;
 }
 
-h1 {
+.header h1 {
+
 	font-weight: 100;
-	padding-top: 10px;
-	color: #1DB8DD;
-	font-size: 85px;
-	text-align: right;
-	padding-top: 210px;
-	margin-bottom:  -22px;
+	font-size: 65px;
+	padding-top: 300px;
+	padding-right: 10px;
+	color: white;
+	border: 3px solid white;
+	opacity: .7;
 }
 
-h2 {
+.header h2 {
 	text-align: right;
-	padding-right: 50px;
-
+	padding-right: 10px;
 	color: white;
+	opacity: .8;
 }
 
 .beaches {
 	text-align: center;
 }
+ul {
+	text-align: center;
+}
 li {
-	display: inline;
-
+	list-style: none;
+	display: inline-block;
+	border-radius: 2px;
+	background-color: white;
+	/*border-right: 4px solid #7D8383;
+	border-left: 4px solid #7D8383;*/
+	padding: 0px 10px 0px 10px;
+	margin: 10px;
 }
 
-a {
-	text-decoration: none;
-}
 
 
 
